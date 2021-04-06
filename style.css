@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+#headings {
+  display: inline-block
+}
+
+#container {
+  margin: 0 auto;
+	padding: 0;
+	width: 800px; 
+}
+
+#resume {
+  background: url("https://i.imgur.com/VhcOkrs.jpg");
+  width: 302px;
+  height: 227px;
+  float: left;
+  margin-left: 70px;
+  border-radius: 50px;
+}
+
+#resume:hover {
+  background: url("https://i.imgur.com/w7gJlwS.jpg");
+}
+
+#rps {
+  background: url("https://i.imgur.com/taL2oFc.jpg");
+  width: 302px;
+  height: 227px;
+  float: right;
+  margin-right: 70px;
+  border-radius: 50px;
+}
+
+#rps:hover {
+  background: url("https://i.imgur.com/rvdnMkO.jpg");
+}
+
+.leftPortal {
+  float: left;
+  margin-left: 180px;
+}
+
+.rightPortal {
+  float: right;
+  margin-right: 70px;
+}
