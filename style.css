@@ -1,20 +1,23 @@
 h1 {
   text-align: center;
   font-size: 80px;
+  margin-left: 45px;
 }
 
 body {
   background-color: #f9f9f9;
 }
 
-#headings {
-  display: inline-block
+p {
+  text-align: center;
+  font-size: 45px;
+  margin-left: 25px;
 }
 
-#container {
+#images {
   margin: 0 auto;
 	padding: 0;
-	width: 800px; 
+	width: 1000px; 
 }
 
 #resume {
@@ -30,25 +33,30 @@ body {
   background: url("https://i.imgur.com/w7gJlwS.jpg");
 }
 
+
+#todo {
+  background: url("https://i.imgur.com/P9tOxF2.jpg");
+  width: 302px;
+  height: 227px;
+  float: left;
+  margin-left: 10px;
+  border-radius: 50px;
+}
+
+
+#todo:hover {
+  background: url("https://i.imgur.com/zW8RzoS.jpg");
+}
+
 #rps {
   background: url("https://i.imgur.com/taL2oFc.jpg");
   width: 302px;
   height: 227px;
   float: right;
-  margin-right: 70px;
+  margin-right: 5px;
   border-radius: 50px;
 }
 
 #rps:hover {
   background: url("https://i.imgur.com/rvdnMkO.jpg");
-}
-
-.leftPortal {
-  float: left;
-  margin-left: 180px;
-}
-
-.rightPortal {
-  float: right;
-  margin-right: 70px;
 }
